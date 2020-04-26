@@ -1,0 +1,2 @@
+first=com.sl.dubbospi.loadbalance.FirstLoadBalance
+last=com.sl.dubbospi.loadbalance.LastLoadBalance
