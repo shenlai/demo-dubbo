@@ -11,6 +11,9 @@
     <modules>
         <module>demo-dubbo-spi</module>
         <module>demo-dubbo-application</module>
+        <module>demo-dubbo-api</module>
+        <module>demo-dubbo-export</module>
+        <module>demo-dubbo-reference</module>
     </modules>
 
     <properties>
@@ -20,5 +23,18 @@
         <springframework.version>5.0.6.RELEASE</springframework.version>
         <dubbo.version>2.7.1</dubbo.version>
     </properties>
-
+    <!--idea maven工程的module的Language Level总是自动变到5-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
