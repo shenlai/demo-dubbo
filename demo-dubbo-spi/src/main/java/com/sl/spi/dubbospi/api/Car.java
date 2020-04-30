@@ -1,4 +1,4 @@
-package com.sl.dubbospi.spidemo.api;
+package com.sl.spi.dubbospi.api;
 
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.Adaptive;

@@ -1,4 +1,4 @@
-package com.sl.dubbospi.loadbalance;
+package com.sl.spi.loadbalance;
 
 
 import org.apache.dubbo.common.URL;
@@ -10,6 +10,9 @@ import org.apache.dubbo.rpc.cluster.LoadBalance;
 import java.util.List;
 
 
+/**
+ * * dubbo spi扩展
+ */
 public class LastLoadBalance implements LoadBalance {
 
     /**

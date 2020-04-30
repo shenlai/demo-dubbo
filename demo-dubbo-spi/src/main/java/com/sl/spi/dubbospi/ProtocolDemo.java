@@ -1,4 +1,4 @@
-package com.sl.dubbospi.spidemo;
+package com.sl.spi.dubbospi;
 
 public class ProtocolDemo {
 

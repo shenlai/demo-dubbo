@@ -1,0 +1,3 @@
+first=com.sl.spi.loadbalance.FirstLoadBalance
+last=com.sl.spi.loadbalance.LastLoadBalance
+#文件名必须是接口全路径名

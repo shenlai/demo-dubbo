@@ -1,6 +1,6 @@
-red = com.sl.dubbospi.impl.RedCar
-black = com.sl.dubbospi.impl.BlackCar
-benz = com.sl.dubbospi.impl.BenzCar
-#com.luban.dubbo_spi.impl.AdaptiveCar
-com.sl.dubbospi.impl.CarWrapper
-com.sl.dubbospi.impl.Car2Wrapper
+red = com.sl.spi.dubbospi.impl.RedCar
+black = com.sl.spi.dubbospi.impl.BlackCar
+benz = com.sl.spi.dubbospi.impl.BenzCar
+#com.sl.spi.dubbospi.impl.AdaptiveCar
+com.sl.spi.dubbospi.impl.CarWrapper
+com.sl.spi.dubbospi.impl.Car2Wrapper

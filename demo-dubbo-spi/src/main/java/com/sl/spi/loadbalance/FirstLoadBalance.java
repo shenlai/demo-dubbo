@@ -1,4 +1,4 @@
-package com.sl.dubbospi.loadbalance;
+package com.sl.spi.loadbalance;
 
 
 import org.apache.dubbo.common.URL;
@@ -10,7 +10,7 @@ import org.apache.dubbo.rpc.cluster.LoadBalance;
 import java.util.List;
 
 /**
- * spi扩展
+ * dubbo spi扩展
  * 所有@SPI注解的类都可以扩展
  */
 public class FirstLoadBalance implements LoadBalance {

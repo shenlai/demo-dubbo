@@ -1,16 +1,15 @@
-package com.sl.dubbospi.spidemo.impl;
+package com.sl.spi.dubbospi.impl;
 
-import com.sl.dubbospi.spidemo.api.Car;
+import com.sl.spi.dubbospi.api.Car;
 import org.apache.dubbo.common.URL;
 
 
-
-public class CarWrapper implements Car {
+public class Car2Wrapper implements Car {
 
     private Car car;
 
-    public CarWrapper(Car car) {
-        System.out.println("12");
+    public Car2Wrapper(Car car) {
+        System.out.println("122");
         this.car = car;
     }
 

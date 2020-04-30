@@ -1,6 +1,6 @@
-package com.sl.dubbospi.spidemo;
+package com.sl.spi.dubbospi;
 
-import com.sl.dubbospi.spidemo.api.Car;
+import com.sl.spi.dubbospi.api.Car;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 
